@@ -1,7 +1,10 @@
 # ELDTM_ENSAE2018
 (Python) subject
 
-### This repository is made as such :
+
+### Projet Eléments logiciels pour le traitement des données massives de: <br/> Pierre Le Pelletier de Woillemont  & Cédric Vincent-Cuaz
+
+#### This repository is made as such :
 
   1. _train-images-idx3-ubyte_ : the MNSIT pictures dataset (60k images of dimensions (28,28)) 
   2. _train-labels-idx1-ubyte_ : the labels corresponding to the MNSIT 
@@ -9,7 +12,7 @@
   4. _Nb cnn_ : the folder containing the Numba implementation 
   5. **Rendu_ELTDM.ipynb** : This is the main file
 
-### Each of the folder is basically made of these scripts:
+#### Each of the folder is basically made of these scripts:
 
   1. _forward.py_ : all the necessary forward functions (convolution, maxpool, softmax, categorical cross entropy, dense layer) 
   2. _backward.py_: all the necessary backward functions (same functions as in forward, but for the backward passes) 
